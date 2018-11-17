@@ -10,8 +10,11 @@ font-family: 'Roboto Condensed', sans-serif;
 */
 body {background-color: #F4F4F4;}
 
+/*
+This styles the navbar
+*/
 .navbar-brand{
-	font-family: 'Bio Sans', sans-serif;
+	font-family: 'Bio Sans Regular', sans-serif;
 	font-size:40px;
 	margin: 0px;
 	background-color: #F4F4F4;
