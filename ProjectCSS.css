@@ -1,0 +1,26 @@
+@charset "utf-8";
+footer{
+	position: relative;
+}
+
+.container{
+	display: flex;
+	height: auto;
+}
+
+img{
+	background-color: darkgray;
+	width: auto;
+}
+
+.jumbotron{
+	width: auto;
+	height: auto;
+	column-fill: auto;
+	grid-row: auto;
+}
+
+.col-sm-6{
+	padding: 0 45px;
+}
+

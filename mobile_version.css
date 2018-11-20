@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+Changin how the website is displayed for mobile displays.
+*/
+
+@media (max-width: 767px) {
+	.navbar-brand{
+	font-size:35px;
+	}
+.nav-link{font-size: 18px;}
+	
+*{font-size: 18px;}
+
+.container{padding-top: 7px;}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+	/*sets the breadcrumb to light gray*/
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    content: "/\00a0";
+}
+
+
+/* Add a color on mouse-over */
+img{
+	image-orientation: from-image;
+	max-width: 400px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 20px;
+    width: 100%;
+	border-radius: 4px;
+}
+	
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #373737;
+  border-radius: 4px;
+	margin: 5px;
+	border-bottom: 10px;
+}
+
+
+
+.jumbotron{
+	height: 100%;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-top: 15px;
+	border-bottom: 15px;
+	
+}
+
+footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.fab{
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.display-4{
+	font-size: 40px;
+}
+
+
+.display-5{
+	font-size: 25px;
+}
+
+.col-md-6{
+	background-color: darkgray;
+}
+}
+
