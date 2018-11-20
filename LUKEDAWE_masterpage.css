@@ -7,6 +7,16 @@ font-family: 'Catamaran', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Courgette', cursive;
 font-family: 'Roboto Condensed', sans-serif;
+
+font-family: 'Lobster', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Allan', cursive;
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
 */
 body {background-color: #F4F4F4;}
 
@@ -14,18 +24,18 @@ body {background-color: #F4F4F4;}
 This styles the navbar
 */
 .navbar-brand{
-	font-family: 'Bio Sans Regular', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:40px;
 	margin: 0px;
 	background-color: #F4F4F4;
 	color: #C0B283;
 	}
 .nav-link{
-	font-family: 'Encode Sans Condensed', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 }
 *{
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 	font-size: 14px;
 }
 
@@ -39,6 +49,8 @@ ul.breadcrumb {
     list-style: none;
 	/*sets the breadcrumb to light gray*/
     background-color: lightgray;
+	margin-bottom: 15px;
+	border-bottom: 5px;
 }
 
 /* Display list items side by side */
@@ -72,7 +84,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-	border-radius: 3px;
+	border-radius: 4px;
 }
 * {box-sizing:border-box}
 
@@ -171,17 +183,19 @@ img{
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
     text-align: center;
+	border-radius: 5px;
 }
 
 .jumbotron{
 	background: #DCD0C0;
+	height: 100%;
 }
 
 .btn{
@@ -192,11 +206,234 @@ footer {
    position:absolute;
    bottom:0;
    width:100%;
-   height:75px;   /* Height of the footer */
+   height:100px;
+	/* Height of the footer */
    background: lightgray;
+	border-radius: 5px;
+	padding: 15px
+	
 }
 
 .fab{
 	padding-left: 15px;
 	padding-top: 5px;
 }
+
+.display-4{
+	font-size: 50px;
+}
+
+
+.display-5{
+	font-size: 30px;
+}
+
+.col-md-6{
+	background-color: darkgray;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	.navbar-brand{
+	font-family: 'Raleway', sans-serif;
+	font-size:4000px;
+	margin: 0px;
+	background-color: #F4F4F4;
+	color: #C0B283;
+	}
+.nav-link{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+}
+*{
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 20px;
+}
+
+.container{
+	padding-top: 7px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+	/*sets the breadcrumb to light gray*/
+    background-color: lightgray;
+	margin-bottom: 15px;
+	border-bottom: 5px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+img{
+	image-orientation: from-image;
+	max-width: 344px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	border-radius: 4px;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #373737;
+  border-radius: 4px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.0s;
+  animation-name: fade;
+  animation-duration: 4.0s;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+	border-radius: 5px;
+}
+
+.jumbotron{
+	background: #DCD0C0;
+	height: 100%;
+}
+
+.btn{
+	background-color: #373737;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:100px;
+	/* Height of the footer */
+   background: lightgray;
+	border-radius: 5px;
+	padding: 15px
+	
+}
+
+.fab{
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.display-4{
+	font-size: 50px;
+}
+
+
+.display-5{
+	font-size: 30px;
+}
+
+.col-md-6{
+	background-color: darkgray;
+	}}
+
+
