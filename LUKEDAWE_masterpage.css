@@ -248,6 +248,18 @@ footer {
 	border-top: 7px;
 }
 
+.card-body{
+	background-color: #DCD0C0; 
+}
+
+.card-title{
+	font-size: 20px;
+}
+
+h5{
+	font-size: 20px;
+}
+
 
 
 
