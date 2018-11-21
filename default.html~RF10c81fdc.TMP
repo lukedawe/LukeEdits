@@ -16,7 +16,6 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Allan|Fredericka+the+Great|Lobster|Shrikhand" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway|Roboto+Slab|Slabo+27px" rel="stylesheet">
-	<link href="ProjectCSS.css" rel="stylesheet" type="text/css">
 	<link href="mobile_version.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -28,7 +27,9 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
-				<a class="nav-link" href="index.html">Home</a>
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="https://www.instagram.com/lkdw_photo/">Instagram</a>
 				</li>
