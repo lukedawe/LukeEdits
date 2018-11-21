@@ -35,6 +35,7 @@ This styles the navbar
 .nav-link{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
+	background-color: #F4F4F4;
 }
 *{
 	font-family: 'Roboto Slab', sans-serif;
