@@ -32,16 +32,21 @@ This styles the navbar
 	background-color: #F4F4F4;
 	color: #C0B283;
 	}
+
+/*This is the nav-bar for the website*/
 .nav-link{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 	background-color: #F4F4F4;
 }
+
+/*This applies to all the elements in the page*/
 *{
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 14px;
 }
 
+/*This is for any elements that have the class container, mainly the grids in the website*/
 .container{
 	padding-top: 7px;
 }
@@ -85,6 +90,8 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 	font-family: "Raleway";
 }
+
+/* Changes how the images are displayed. With slightly rounded edges and a controlled size*/
 img{
 	image-orientation: from-image;
 	max-width: 344px;
@@ -94,6 +101,7 @@ img{
     width: 75%;
 	border-radius: 4px;
 }
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -168,6 +176,7 @@ img{
   transition: background-color 0.6s ease;
 }
 
+/* Changes the way the text appears when the mouse hovers over it*/
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -180,6 +189,8 @@ img{
   animation-duration: 4.0s;
 }
 
+/* This is for the Javascript of the slideshow*/
+/* Changes the oppacity of the photos so they fade in and out*/
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -190,6 +201,7 @@ img{
   to {opacity: 1}
 }
 
+/* Changes the positioning and the position of the text in the footer*/
 .footer {
     position: relative;
     left: 0;
@@ -201,15 +213,18 @@ img{
 	border-radius: 5px;
 }
 
+/*Changes the way the jumbotron is displayed, with the gold background.*/
 .jumbotron{
 	background: #DCD0C0;
 	height: 100%;
 }
 
+/* Makes the button on the homepage grey*/
 .btn{
 	background-color: #373737;
 }
 
+/*Changes anything in the semantic footer element*/
 footer {
    position:absolute;
    bottom:0;
@@ -222,13 +237,14 @@ footer {
 
 }
 
+/* This is for the fontawesome icons */
 .fab{
 	padding-left: 15px;
 	padding-top: 5px;
 	padding-right: 5px;
 }
 
-
+/*Changes how some of the jumbotrons are displayed*/
 .display-4{
 	font-size: 50px;
 }
@@ -242,6 +258,7 @@ footer {
 	background-color: darkgray;
 }
 
+/* Made this class myself, this is for the big jumbotron on the projects page*/
 .jumbotron_title{
 	background-color: #F4F4F4;
 	margin-top: 7px;

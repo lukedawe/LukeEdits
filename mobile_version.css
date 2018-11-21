@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*
-Changin how the website is displayed for mobile displays.
+Changing how the website is displayed for mobile displays.
 */
 
 @media (max-width: 767px) {
@@ -63,7 +63,7 @@ img{
 }
 
 
-
+/*These are the big containers of text*/
 .jumbotron{
 	height: 100%;
 	width: 100%;
