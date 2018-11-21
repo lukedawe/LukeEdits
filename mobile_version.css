@@ -71,7 +71,6 @@ img{
 	margin-bottom: 15px;
 	border-top: 15px;
 	border-bottom: 15px;
-	
 }
 
 footer{
@@ -96,6 +95,10 @@ footer{
 
 .col-md-6{
 	background-color: darkgray;
+}
+.col-sm-6{
+	padding-left: 3px;
+	padding-right: 3px;
 }
 }
 
